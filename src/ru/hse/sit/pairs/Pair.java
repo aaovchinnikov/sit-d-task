@@ -1,4 +1,4 @@
-package ru.hse.sit;
+package ru.hse.sit.pairs;
 
 public class Pair {
 	public int first;

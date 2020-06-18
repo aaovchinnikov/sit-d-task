@@ -2,6 +2,9 @@ package ru.hse.sit;
 
 import java.util.Arrays;
 
+import ru.hse.sit.pairs.Pair;
+import ru.hse.sit.results.SitDResult;
+
 public class App {
 	public static void main(String[] args) {
 		new SitDResult(

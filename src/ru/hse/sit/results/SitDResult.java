@@ -1,7 +1,10 @@
-package ru.hse.sit;
+package ru.hse.sit.results;
 
 import java.io.PrintStream;
 import java.util.List;
+
+import ru.hse.sit.Result;
+import ru.hse.sit.pairs.Pair;
 
 public class SitDResult implements Result {
 	private final List<Pair> pairs;

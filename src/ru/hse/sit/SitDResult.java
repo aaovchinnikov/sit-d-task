@@ -14,7 +14,7 @@ public class SitDResult implements Result {
 	}
 
 	@Override
-	public void print(PrintStream out) {
+	public void printTo(PrintStream out) {
 		out.println(this.pairs.size());
 		for(Pair pair: this.pairs) {
 			out.print(pair.first);
